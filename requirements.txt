@@ -2,4 +2,4 @@ streamlit
 pandas
 zipfile36
 beautifulsoup4
-urllib
+#urllib
