@@ -1,5 +1,5 @@
 streamlit
 pandas
-#zipfile
-#requests
-#urllib
+zipfile36
+beautifulsoup4
+urllib
