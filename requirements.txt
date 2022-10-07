@@ -1,5 +1,5 @@
 streamlit
 pandas
-ZipFile
+zipfile
 requests
 urllib
