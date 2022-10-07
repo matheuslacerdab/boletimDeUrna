@@ -1,0 +1,5 @@
+streamlit
+pandas
+ZipFile
+requests
+urllib
