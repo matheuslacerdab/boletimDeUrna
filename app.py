@@ -48,7 +48,9 @@ def getBoletinsDeUrnasPorUF(uf, link):
 
     linkDadosBoletinsDeUrnasPorUF = soup.find('a', class_='resource-url-analytics').get('href')
 
-    reqDadosBoletinsDeUrnasPorUF = Request(linkDadosBoletinsDeUrnasPorUF, headers={'User-Agent': 'Mozilla/5.0'})
+    #reqDadosBoletinsDeUrnasPorUF = Request(linkDadosBoletinsDeUrnasPorUF, headers={'User-Agent': 'Mozilla/5.0'})
+
+    reqDadosBoletinsDeUrnasPorUF = Request(linkDadosBoletinsDeUrnasPorUF, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36","X-Requested-With": "XMLHttpRequest"})
 
     dadosBoletinsDeUrnasPorUF = urlopen(reqDadosBoletinsDeUrnasPorUF)
 
