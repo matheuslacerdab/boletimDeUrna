@@ -4,3 +4,4 @@ zipfile36
 beautifulsoup4
 lxml
 ibge
+stqdm
